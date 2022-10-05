@@ -14,5 +14,6 @@ public class ObjectsMoover : MonoBehaviour
         if(transform.position.x >= 25){
             Destroy(gameObject);
         }
+
     }
 }

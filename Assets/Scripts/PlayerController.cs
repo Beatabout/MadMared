@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] int health = 3;
     [SerializeField] int score = 0;
-
+    
     GameManager gameManager;
     AudioManager audioManager;
 

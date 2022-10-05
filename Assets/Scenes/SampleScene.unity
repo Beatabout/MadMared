@@ -245,7 +245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62599976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.0743666, y: 3.1625075, z: -11.943986}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1159,7 +1159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756647855}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9180284, y: 0.746607, z: -0.1064248}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2711,12 +2711,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2137882108562158008, guid: 844f09a05968329498abe15c5cb9500b, type: 3}
+      propertyPath: Delay
+      value: 4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137882108562158008, guid: 844f09a05968329498abe15c5cb9500b, type: 3}
+      propertyPath: Delay2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137882108562158008, guid: 844f09a05968329498abe15c5cb9500b, type: 3}
       propertyPath: trapVFX
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2137882108562158008, guid: 844f09a05968329498abe15c5cb9500b, type: 3}
       propertyPath: foodpVFX
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2137882108562158008, guid: 844f09a05968329498abe15c5cb9500b, type: 3}
+      propertyPath: playerDescription
+      value: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '
       objectReference: {fileID: 0}
     - target: {fileID: 6525421444782939355, guid: 844f09a05968329498abe15c5cb9500b, type: 3}
       propertyPath: playerPathPoint.Array.data[0]
